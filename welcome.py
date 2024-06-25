@@ -8,7 +8,7 @@ class User:
         self.email = email
 
     def __str__(self):
-        return f'{"name":{self.name}, "surname": {self.surname}, "email": {self.email}}'
+        return f'{"name": "{self.name}", "surname": "{self.surname}", "email": "{self.email}"}'
 
     @classmethod
     def new_user(cls):
