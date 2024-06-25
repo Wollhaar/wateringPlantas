@@ -1,2 +1,5 @@
 #general
 .idea/
+
+#user data
+user.json
